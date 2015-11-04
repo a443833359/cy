@@ -1,0 +1,79 @@
+===================================
+Glades Changelog
+===================================
+
+Version 1.1.2
+-----------------------------------
+[added] escaping for translation strings for improved security
+
+Version 1.1.1
+-----------------------------------
+[added] postmeta setting to Category Posts Boxed widget
+[added] postmeta setting to Category Posts Columns widget
+[added] postmeta setting to Category Posts Grid widget
+
+Version 1.1.0
+-----------------------------------
+[moved] additional functions from functions.php to extras.php and template-tags.php
+[added] theme support for Widget Bundle Addon Plugin
+[removed] fallback solution for new title tag feature of WordPress
+[removed] function_exists wrappers for action hook functions
+[changed] implementation of threaded comments javascript
+
+Version 1.0.9
+-----------------------------------
+[moved] register_widget functions to widgets_init action hook to fix widget translation
+[improved] customizer sections to be translation-ready
+[updated] German translation file
+
+Version 1.0.8
+-----------------------------------
+[improved] code of 404.php and search.php templates
+[improved] phrasing of all translatable text strings
+[updated] translation files
+
+Version 1.0.7
+-----------------------------------
+[fixed] deprecating PHP4 style constructors notices in WordPress 4.3
+
+Version 1.0.6
+-----------------------------------
+[added] setting for deactivating default google fonts in case they are not compatible with user language
+[added] translation files for Dutch, Italian, French, Greek, Spanish and German
+
+Version 1.0.5
+-----------------------------------
+[changed] search title HTML markup in search.php
+[changed] archive titles to use the new the_archive_title() function
+[removed] unnecessary template files tag.php, category.php and author.php
+
+Version 1.0.4
+-----------------------------------
+[added] setting to display or hide post date
+[added] setting to display or hide post author
+[added] setting to display or hide post categories
+[added] setting to display or hide post tags
+[fixed] description of widgets and sidebars
+
+Version 1.0.3
+-----------------------------------
+[updated] Featured Content class to new version with many code improvements
+[added] new setting to display featured posts in latest blog post listing
+
+Version 1.0.2
+-----------------------------------
+[changed] navigation.js to use our new developed responsiveMenu function
+[added] dropdown icons and animations for nested submenus on mobile navigation
+[removed] unnecessary header-content.php file
+
+Version 1.0.1
+-----------------------------------
+[added] new classes entry-title, updated and author for google microformats structure
+[added] clearfix class to Magazine Homepage widget area
+[removed] unnecessary HTML markup and Genericons in theme-info.php
+[removed] unnecessary footer navigation menu location
+[fixed] styling of footer line and cleaned up CSS in style.css
+
+Version 1.0
+-----------------------------------
+Final Version
